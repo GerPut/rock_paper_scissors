@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
 </head>
+
 <body>
-    <h1>Rock Paper Scissors</h1>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
         <p>Select your play</p>
-            <p>Player:
-                 <button id="rock" class="button1">Rock</button>
-                <button id="paper" class="button2">Paper</button>
-                <button id="scissors" class="button3">Scissors</button>
-            </p>
+        <p>Player:
+            <button class="selection" data-selection="rock">Rock</button>
+            <button class="selection" data-selection="paper">Paper</button>
+            <button class="selection" data-selection="scissors">Scissors</button>
+        </p>
 
-            <div id="computerselection" class="computeranswer"><p>Computer:</p>
-            <p>Answer goes here:rock, paper, scissors</p>
+        <div id="computerselection" class="computeranswer">
+            <p class="computerplay">Computer:</p>
         </div>
-            
-        
 
 
 
-            <p id="result" class="resultmsg">Result:</p>
 
 
+        <p id="result" class="resultmsg">Result:</p>
 
-    <script src ="app.js"></script>
+
+    </div>
+    <script src="app.js"></script>
 </body>
+
 </html>
